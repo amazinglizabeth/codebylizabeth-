@@ -3,6 +3,14 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    title: "Tadfinance",
+    description:
+      "A financial solutions company dedicated to empowering solopreneurs and small business owners.",
+    tech: "React, Tailwind",
+    live: "www.tadfinance.com",
+    code: "https://github.com/amazinglizabeth/tadfinance",
+  },
+  {
     title: "Gym-fit",
     description:
       "A Gym website, where people can access basic info about the gym and get registered.",
@@ -16,7 +24,7 @@ const projects = [
       "A tech academy offering courses, hands-on projects, and certifications.",
     tech: "React, Tailwind",
     live: "https://techub-academy.vercel.app/",
-    code: "https://github.com/amazinglizabeth/techub_academy",
+    code: "https://github.com/amazinglizabeth/techub-academy",
   },
   {
     title: "Safeguard",
@@ -35,7 +43,7 @@ const projects = [
     code: "https://github.com/amazinglizabeth/headset-react-design",
   },
   {
-    title: "Coming Soon Project 2",
+    title: "Coming Soon Project ",
     description: "Details coming soon...",
     tech: "React, Tailwind",
     live: "#",

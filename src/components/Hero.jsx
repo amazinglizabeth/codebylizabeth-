@@ -9,12 +9,12 @@ const Hero = () => (
         Amazing Lizabeth
       </h1>
       <p className="text-base md:text-xl mb-2 font-serif">
-        A Frontend Developer passionate about building beautiful web
-        experiences.
+        A Frontend Developer passionate about building responsive,
+        user-friendly, and visually refined web applications.
       </p>
       <p className="text-base md:text-xl mb-4 font-serif">
-        Creating an easy and delightful user experience design to achieve core
-        user goals.
+        I specialize in creating seamless user experiences that align with both
+        design principles and business goals.
       </p>
       <p className="text-base md:text-xl mb-6 font-serif italic">
         This is Code By Lizabeth...

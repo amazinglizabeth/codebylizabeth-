@@ -21,7 +21,7 @@ const ProjectCard = ({ title, description, tech, live, code, darkMode }) => (
           Live
         </a>
       )}
-      {code !== "#" && (
+      {/* {code !== "#" && (
         <a
           href={code}
           className="text-cyan-500  hover:underline"
@@ -30,7 +30,7 @@ const ProjectCard = ({ title, description, tech, live, code, darkMode }) => (
         >
           Code
         </a>
-      )}
+      )} */}
     </div>
   </div>
 );
