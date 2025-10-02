@@ -18,7 +18,7 @@ const ProjectCard = ({ title, description, tech, live, code, darkMode }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Live
+          View
         </a>
       )}
       {/* {code !== "#" && (
