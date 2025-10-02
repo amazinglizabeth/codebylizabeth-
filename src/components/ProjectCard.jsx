@@ -1,5 +1,5 @@
 import React from "react";
-const ProjectCard = ({ title, description, tech, live, code, darkMode }) => (
+const ProjectCard = ({ title, description, stack, live, code, darkMode }) => (
   <div
     className={`rounded-xl shadow-md p-6 transition-colors duration-300 ${
       darkMode ? "bg-gray-800 text-white" : "bg-white text-black"
@@ -8,7 +8,7 @@ const ProjectCard = ({ title, description, tech, live, code, darkMode }) => (
     <h3 className="text-xl font-bold mb-2">{title}</h3>
     <p className="mb-2">{description}</p>
     <p className="text-sm mb-4">
-      Tech Stack: <span className="text-pink-500">{tech}</span>
+      Tech Stack: <span className="text-pink-500">{stack}</span>
     </p>
     <div className="flex gap-4">
       {live !== "#" && (

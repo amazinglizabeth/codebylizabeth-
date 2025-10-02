@@ -6,7 +6,7 @@ const projects = [
     title: "Tadfinance",
     description:
       "A financial solutions company dedicated to empowering solopreneurs and small business owners.",
-    stack: "Typescript, React, Tailwind, Vite",
+    stack: "Typescript.React.Tailwind.Vite",
     live: "www.tadfinance.com",
     code: "https://github.com/amazinglizabeth/tadfinance",
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Gym-fit",
     description:
       "A Gym website, where people can access basic info about the gym and get registered.",
-    stack: "React, Tailwind",
+    stack: "React.Tailwind",
     live: "https://gym-fit-pink.vercel.app/",
     code: "https://github.com/amazinglizabeth/Gym-Fit",
   },
@@ -22,7 +22,7 @@ const projects = [
     title: "Techub Academy",
     description:
       "A tech academy offering courses, hands-on projects, and certifications.",
-    stack: "Vite, React, Tailwind",
+    stack: "Vite.React.Tailwind",
     live: "https://techub-academy.vercel.app/",
     code: "https://github.com/amazinglizabeth/techub-academy",
   },
@@ -30,7 +30,7 @@ const projects = [
     title: "Safeguard",
     description:
       "A security consulting firm that offers services and sells security products.",
-    stack: "Vite, React, Tailwind",
+    stack: "Vite.React.Tailwind",
     live: "https://safeguard-black.vercel.app/",
     code: "https://github.com/amazinglizabeth/safeguard",
   },
@@ -38,14 +38,14 @@ const projects = [
     title: "Headphone Store",
     description:
       "A landing page for a store that sells differnt types of hedaphones",
-    stack: "React, Tailwind",
+    stack: "React.Tailwind",
     live: "https://headset-react-design.vercel.app/",
     code: "https://github.com/amazinglizabeth/headset-react-design",
   },
   {
     title: "Coming Soon Project ",
     description: "Details coming soon...",
-    stack: "React, Tailwind",
+    stack: "React.Tailwind",
     live: "#",
     code: "#",
   },
