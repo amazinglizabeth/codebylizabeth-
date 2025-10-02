@@ -8,7 +8,7 @@ const ProjectCard = ({ title, description, tech, live, code, darkMode }) => (
     <h3 className="text-xl font-bold mb-2">{title}</h3>
     <p className="mb-2">{description}</p>
     <p className="text-sm mb-4">
-      Tech Used: <span className="text-pink-500">{tech}</span>
+      Tech Stack: <span className="text-pink-500">{tech}</span>
     </p>
     <div className="flex gap-4">
       {live !== "#" && (
