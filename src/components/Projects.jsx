@@ -7,7 +7,7 @@ const projects = [
     description:
       "A financial solutions company dedicated to empowering solopreneurs and small business owners.",
     stack: "Typescript.React.Tailwind.Vite",
-    live: "www.tadfinance.com",
+    live: "https://tadfinance.com",
     code: "https://github.com/amazinglizabeth/tadfinance",
   },
   {
@@ -43,10 +43,10 @@ const projects = [
     code: "https://github.com/amazinglizabeth/headset-react-design",
   },
   {
-    title: "Coming Soon Project ",
-    description: "Details coming soon...",
+    title: "Vitalswap Fee Page",
+    description: "A fee calculator and exchange detail page for Vitalswap",
     stack: "React.Tailwind",
-    live: "#",
+    live: "https://vitalswap-fee-page.netlify.app",
     code: "#",
   },
 ];

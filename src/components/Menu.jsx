@@ -5,7 +5,7 @@ const Menu = ({ darkMode, toggleTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="pt-3 px-4 md:px-8 flex items-center justify-between relative">
+    <div className="pt-3 px-4 md:px-8 flex items-center justify-between relative border-b-2 border-gray-100 ">
       <div className="flex items-center">
         <img src={Logo} alt="logo" className="w-16 h-16" />
       </div>
@@ -102,7 +102,7 @@ const Menu = ({ darkMode, toggleTheme }) => {
           </button>
         </div>
       )}
-    </nav>
+    </div>
   );
 };
 
