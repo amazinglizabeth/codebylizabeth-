@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff6b9a"/>
+      <stop offset="1" stop-color="#ff3d81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="20" fill="url(#g2)"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#08101A">
+    <text x="64" y="120" font-size="48" font-weight="700">Gym-fit</text>
+    <text x="64" y="180" font-size="20">Gym landing and registration flow.</text>
+  </g>
+  <g transform="translate(64,260)">
+    <rect x="0" y="0" width="480" height="220" rx="12" fill="#000" opacity="0.12"/>
+    <circle cx="90" cy="110" r="56" fill="#fff" opacity="0.08"/>
+  </g>
+</svg>
