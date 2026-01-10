@@ -30,7 +30,6 @@ export default function Projects() {
                   <p className="text-(--text-muted) mt-2 text-sm">{p.description}</p>
 
                   <div className="mt-4 flex items-center gap-4">
-                    <a className="text-(--accent-secondary)" href={p.github}>GitHub</a>
                     <a className="text-(--accent-primary)" href={p.live}>Live</a>
                   </div>
                 </div>
