@@ -58,7 +58,7 @@ export default function Hero() {
       </div>
 
       {/* Decorative image removed; add floating magnifier overlay */}
-      <Magnifier className="hidden md:block left-[62%] top-24 lg:left-[70%] lg:top-28" />
+<Magnifier className="block left-1/2 -translate-x-1/2 top-16 md:left-[62%] md:top-24 lg:left-[70%] lg:top-28" />
     </section>
   )
 }
