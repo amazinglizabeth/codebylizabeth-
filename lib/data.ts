@@ -10,6 +10,15 @@ export const projects = [
   },
   {
     id: 'p2',
+    title: 'Instafood',
+    description: 'A food delivery platform.',
+    image: '/screenshots/instafood.png',
+    stack: ['React', 'Tailwind'],
+    github: '',
+    live: 'https://goinstafood.com/'
+  },
+  {
+    id: 'p3',
     title: 'Gym-fit',
     description: 'Gym landing and registration flow.',
     image: '/screenshots/gym-fit.png',
@@ -18,7 +27,7 @@ export const projects = [
     live: 'https://gym-fit-pink.vercel.app/'
   },
   {
-    id: 'p3',
+    id: 'p4',
     title: 'Techub Academy',
     description: 'Course platform and learning UX.',
     image: '/screenshots/techub-academy.png',
