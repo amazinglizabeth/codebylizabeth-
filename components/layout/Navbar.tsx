@@ -5,6 +5,8 @@ import { usePathname } from 'next/navigation'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
+import Image from 'next/image'
+
 
 export function Navbar() {
   const path = usePathname()
@@ -15,11 +17,18 @@ export function Navbar() {
       <div className="container mx-auto px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-4">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-lg bg-linear-to-br from-[var(--accent-primary)] to-[var(--accent-secondary)] flex items-center justify-center text-black font-bold">
-              E
-            </div>
-          </Link>
+         <Link href="/" className="flex items-center gap-3">
+  <div className="w-14 h-14 rounded-lg overflow-hidden">
+    <Image
+      src="/cbl-logo.png"
+      alt="CodeByLizabeth logo"
+      width={54}
+      height={54}
+      className="object-contain"
+      priority
+    />
+  </div>
+</Link>
 
           <div className="hidden sm:block">
             <div className="text-sm text-(--text-muted)">CodeByLizabeth</div>
