@@ -18,7 +18,8 @@ export default function About() {
     return () => clearInterval(id)
   }, [])
 
-  const MD: unknown = motion.div
+const MD = motion.div as React.FC<any>
+
 
   return (
     <section
@@ -66,27 +67,27 @@ export default function About() {
   <div className="relative w-full max-w-sm sm:max-w-md md:max-w-lg">
     
     {/* CARD 1 (BOTTOM) */}
-    <motion.div
+    <MD
       className="project-card relative z-10"
       initial={{ opacity: 0, y: 40, x: 0 }}
       animate={{ opacity: 1, y: 0, x: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
       <div className="project-inner" />
-    </motion.div>
+    </MD>
 
     {/* CARD 2 (MIDDLE) */}
-    <motion.div
+    <MD
       className="project-card relative z-20 -mt-20 sm:-mt-24"
       initial={{ opacity: 0, y: 60, x: 10 }}
       animate={{ opacity: 1, y: 0, x: 0 }}
       transition={{ delay: 0.15, duration: 0.6, ease: 'easeOut' }}
     >
       <div className="project-inner" />
-    </motion.div>
+    </MD>
 
     {/* CARD 3 (TOP) */}
-    <motion.div
+    <MD
       className="project-card relative z-30 -mt-20 sm:-mt-24"
       initial={{ opacity: 0, y: 80, x: 20 }}
       animate={{ opacity: 1, y: 0, x: 0 }}
@@ -96,7 +97,7 @@ export default function About() {
       <div className="project-inner flex items-center justify-center text-white text-base sm:text-xl font-medium">
         ILLUSTRATIONS
       </div>
-    </motion.div>
+    </MD>
 
   </div>
 </div>
