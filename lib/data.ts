@@ -3,7 +3,7 @@ export const projects = [
     id: 'p1',
     title: 'Tadfinance',
     description: 'Financial solutions for solopreneurs.',
-    image: '/screenshots/tadfinance.svg',
+    image: '/screenshots/tadfinance.png',
     stack: ['React', 'TypeScript', 'Tailwind'],
     github: '',
     live: 'https://tadfinance.com'
@@ -12,7 +12,7 @@ export const projects = [
     id: 'p2',
     title: 'Gym-fit',
     description: 'Gym landing and registration flow.',
-    image: '/screenshots/gym-fit.svg',
+    image: '/screenshots/gym-fit.png',
     stack: ['React', 'Tailwind'],
     github: '',
     live: 'https://gym-fit-pink.vercel.app/'
@@ -21,7 +21,7 @@ export const projects = [
     id: 'p3',
     title: 'Techub Academy',
     description: 'Course platform and learning UX.',
-    image: '/screenshots/techub-academy.svg',
+    image: '/screenshots/techub-academy.png',
     stack: ['Vite', 'React'],
     github: '',
     live: 'https://techub-academy.vercel.app/'
@@ -29,7 +29,17 @@ export const projects = [
 ]
 
 export const timeline = [
-  { company: 'Stellar Labs', role: 'Senior Frontend Engineer', range: '2022 — Present', description: 'Led a design system and improved app performance by 40%.' },
-  { company: 'Brightside', role: 'Frontend Engineer', range: '2019 — 2022', description: 'Built dashboards and complex visualizations for B2B customers.' },
-  { company: 'Pixelcraft', role: 'UI Developer', range: '2017 — 2019', description: 'Focused on interactions, accessibility, and component libraries.' }
-]
+  {
+    company: 'Crednet technologies',
+    role: 'Junior Frontend Engineer',
+    range: '2025 — Present',
+    description: 'Develop and maintain frontend features using modern frameworks, collaborate with backend engineers to integrate APIs, and ensure responsive, user-friendly interfaces across web applications.'
+  },
+  {
+    company: 'Freelancing',
+    role: 'Frontend Engineer',
+    range: '2024 — 2025',
+    description: 'Worked directly with clients to create custom web solutions, implemented intuitive UI components, and translated designs into functional, interactive websites.'
+  },
+];
+

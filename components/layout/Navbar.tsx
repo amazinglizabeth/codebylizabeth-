@@ -1,7 +1,7 @@
 "use client"
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export function Navbar() {
   const path = usePathname()
@@ -27,8 +27,8 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <a className="p-2 rounded-md text-(--text-muted) hover:text-(--text-primary) transition" href="https://github.com/" aria-label="GitHub"><FaGithub /></a>
-          <a className="p-2 rounded-md text-(--text-muted) hover:text-(--text-primary) transition" href="https://linkedin.com/" aria-label="LinkedIn"><FaLinkedin /></a>
+          <a className="p-2 rounded-md text-(--text-muted) hover:text-(--text-primary) transition" href="https://github.com/amazinglizabeth/" aria-label="GitHub"><FaGithub /></a>
+          <a className="p-2 rounded-md text-(--text-muted) hover:text-(--text-primary) transition" href="https://www.linkedin.com/in/adenike-elizabeth-olanrewaju-0b62681ba" aria-label="LinkedIn"><FaLinkedin /></a>
 
         </div>
       </div>

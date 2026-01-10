@@ -49,8 +49,8 @@ export default function Hero() {
           <div className="mt-8">
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.28 }}>
               <div className="flex items-center justify-center gap-6">
-                <a className="text-(--text-muted) hover:text-(--text-primary) transition" href="https://github.com/"> <FaGithub size={18} /> </a>
-                <a className="text-(--text-muted) hover:text-(--text-primary) transition" href="https://linkedin.com/"> <FaLinkedin size={18} /> </a>
+                <a className="text-(--text-muted) hover:text-(--text-primary) transition" href="https://github.com/amazinglizabeth/"> <FaGithub size={18} /> </a>
+                <a className="text-(--text-muted) hover:text-(--text-primary) transition" href="https://www.linkedin.com/in/adenike-elizabeth-olanrewaju-0b62681ba"> <FaLinkedin size={18} /> </a>
               </div>
             </motion.div>
           </div>

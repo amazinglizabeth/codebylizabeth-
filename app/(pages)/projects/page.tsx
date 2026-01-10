@@ -1,5 +1,4 @@
-import React from 'react'
-import Projects from '../../../components/sections/Projects'
+import Projects from '@/components/sections/Projects'
 
 export default function ProjectsPage() {
   return (
