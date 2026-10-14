@@ -1,8 +1,13 @@
-import About from '../../../components/sections/About'
+import About from '@/components/sections/About'
+
+export const metadata = {
+  title: 'About — Elizabeth Olanrewaju',
+  description: 'Frontend engineer specializing in Next.js, React, TypeScript, and motion systems.'
+}
 
 export default function AboutPage() {
   return (
-    <div className="container mx-auto px-6 lg:px-8 py-12">
+    <div className="pt-12 pb-20">
       <About />
     </div>
   )

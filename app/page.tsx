@@ -7,11 +7,11 @@ import Contact from '../components/sections/Contact'
 
 export default function Home() {
   return (
-    <div className="space-y-28 overflow-x-hidden">
+    <div className="overflow-x-hidden">
       <Hero />
+      <Projects />
       <About />
       <Skills />
-      <Projects />
       <Experience />
       <Contact />
     </div>

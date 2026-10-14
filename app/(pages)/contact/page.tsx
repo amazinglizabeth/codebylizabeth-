@@ -1,8 +1,13 @@
-import Contact from '../../../components/sections/Contact'
+import Contact from '@/components/sections/Contact'
+
+export const metadata = {
+  title: 'Contact — Elizabeth Olanrewaju',
+  description: 'Get in touch for frontend development roles, collaborations, and project inquiries.'
+}
 
 export default function ContactPage() {
   return (
-    <div className="container mx-auto px-6 lg:px-8 py-12">
+    <div className="pt-12 pb-20">
       <Contact />
     </div>
   )
